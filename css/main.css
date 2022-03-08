@@ -56,7 +56,7 @@ body, html {
     margin-bottom: 2em;
 }
 .link-tree{
-    padding: 1em;
+    padding: 1em 0;
     display: flex;
     flex-direction: column;
     z-index: 10;
