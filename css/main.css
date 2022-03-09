@@ -2,7 +2,6 @@
 body, html {
     height:fit-content;
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
     text-align: center;
     color: brown;
 }
@@ -16,7 +15,7 @@ body, html {
     transform: translate(-50%,0%);
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/sidebar-bg.png) no-repeat center center;
     background-size: cover;
-    overflow:hidden;
+    overflow-x:hidden;
 }
   
 .leaf-scene {
@@ -90,7 +89,7 @@ a{
 }
 @media (min-width:400px) {
     body{
-        width: 100%;
+        height: 100%;
     }
     .link-tree{
         margin: 0 auto;
