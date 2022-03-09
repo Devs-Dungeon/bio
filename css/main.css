@@ -13,7 +13,7 @@ body, html {
     bottom: 0;
     left: 50%;
     width: 100vw;
-    height: 100vh; 
+    height: 100vh;
     transform: translate(-50%,0%);
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/sidebar-bg.png) no-repeat center center;
     background-size: cover;
