@@ -2,11 +2,9 @@
 body, html {
     height:fit-content;
     font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
     text-align: center;
     color: brown;
 }
-
 .falling-leaves {
     position:absolute;
     top: 0;
@@ -17,7 +15,7 @@ body, html {
     transform: translate(-50%,0%);
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/sidebar-bg.png) no-repeat center center;
     background-size: cover;
-    overflow:hidden;
+    overflow-x:hidden;
 }
   
 .leaf-scene {
@@ -39,14 +37,11 @@ body, html {
     transform-style: preserve-3d;
     backface-visibility: visible;
 }
-
-.container{
- margin: 4em 0 0;
-}
 .title{
     font-size: 2rem;
     padding-bottom: 0%;
 }
+
 
 .subtitle{
     font-size: 1rem;
@@ -89,7 +84,13 @@ a{
     font-size: 1.3em;
     margin-bottom: 0.2em;
 }
+.copyright{
+    color:#000;
+}
 @media (min-width:400px) {
+    body{
+        height: 100%;
+    }
     .link-tree{
         margin: 0 auto;
         width: 400px;
