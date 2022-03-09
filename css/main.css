@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 body, html {
-     height:fit-content;
+    height:fit-content;
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     text-align: center;
@@ -8,7 +8,7 @@ body, html {
 }
 
 .falling-leaves {
-    position: absolute;
+    position:absolute;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -17,7 +17,7 @@ body, html {
     transform: translate(-50%,0%);
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/sidebar-bg.png) no-repeat center center;
     background-size: cover;
-    overflow: hidden;
+    overflow:hidden;
 }
   
 .leaf-scene {
@@ -42,15 +42,12 @@ body, html {
 
 .container{
  margin: 4em 0 0;
-
 }
 .title{
     font-size: 2rem;
+    padding-bottom: 0%;
 }
-.title span{
-    font-size: 4rem;
-    font-family: 'Bree Serif', serif;
-}
+
 .subtitle{
     font-size: 1rem;
     margin-bottom: 2em;
