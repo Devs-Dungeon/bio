@@ -38,8 +38,8 @@ body, html {
     backface-visibility: visible;
 }
 #logo{
-    height: 10rem;
-    width: 25rem;
+    /* height: 10rem;
+    width: 25rem; */
 }
 .title{
     font-size: 2rem;
