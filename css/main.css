@@ -48,8 +48,9 @@ body, html {
 
 
 .subtitle{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 2em;
+    margin-top: 0%;
 }
 .link-tree{
     padding: 1em 0;
