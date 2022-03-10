@@ -37,6 +37,10 @@ body, html {
     transform-style: preserve-3d;
     backface-visibility: visible;
 }
+#logo{
+    height: 10rem;
+    width: 25rem;
+}
 .title{
     font-size: 2rem;
     padding-bottom: 0%;
@@ -44,7 +48,7 @@ body, html {
 
 
 .subtitle{
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 2em;
 }
 .link-tree{
