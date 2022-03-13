@@ -57,25 +57,22 @@ a{
     color: black;
     margin-bottom: 1.2em;
     padding: .85em 1.25em;
-/*     background-color: rgba(150, 75, 0, 0.5);
- */    box-shadow: 4px 4px 2px rgba(150, 75, 0, 0.12);
+    box-shadow: 4px 4px 2px rgba(150, 75, 0, 0.12);
     border-radius: 5px;
     transition: all 250ms;
     text-align: start;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    flex-direction: row;
+    justify-content:center;
+    align-content: center; 
     align-items: center;
+
 }
 .link:hover{
     background-color: rgba(150, 75, 0, 0.8);
     transform: scale(1.05);
 }
-.fa-brands{
-    font-size: 1.3em;
-    margin-bottom: 0.2em;
-}
+
 .copyright{
     color:#000;
     padding-top: 30px;
@@ -110,3 +107,7 @@ a{
 .con{
     color: rgba(90, 72, 197, 0.6);
 }
+ .img1{
+    height: 25px;
+    width: 25px;
+    } 
