@@ -3,7 +3,7 @@ body, html {
     height:fit-content;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color: brown;
+    color: #935633;
 }
 .falling-leaves {
     position:absolute;
@@ -13,37 +13,19 @@ body, html {
     width: 100vw;
     height: 100vh;
     transform: translate(-50%,0%);
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/sidebar-bg.png) no-repeat center center;
+    background: url("../bg.png") no-repeat center center;
     background-size: cover;
     overflow-x:hidden;
 }
   
-.leaf-scene {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    transform-style: preserve-3d;}
-
-.leaf-scene div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg) no-repeat;
-    background-size: 100%;
-    transform-style: preserve-3d;
-    backface-visibility: visible;
-}
-#logo{
-    /* height: 10rem;
-    width: 25rem; */
+span{
+    color: #935633;
 }
 .title{
     font-size: 2rem;
     padding-bottom: 0%;
+    font-family: 'Stick', sans-serif;
+    color: #5C5B99;
 }
 .container{
     padding-top: 10vh;
@@ -55,6 +37,7 @@ body, html {
     font-size: 1rem;
     margin-bottom: 2em;
     margin-top: 0%;
+    color: black;
 }
 .link-tree{
     padding: 1em 0;
@@ -74,8 +57,8 @@ a{
     color: black;
     margin-bottom: 1.2em;
     padding: .85em 1.25em;
-    background-color: rgba(150, 75, 0, 0.5);
-    box-shadow: 4px 4px 2px rgba(150, 75, 0, 0.12);
+/*     background-color: rgba(150, 75, 0, 0.5);
+ */    box-shadow: 4px 4px 2px rgba(150, 75, 0, 0.12);
     border-radius: 5px;
     transition: all 250ms;
     text-align: start;
@@ -95,6 +78,7 @@ a{
 }
 .copyright{
     color:#000;
+    padding-top: 30px;
 }
 @media (min-width:400px) {
     body{
@@ -104,4 +88,25 @@ a{
         margin: 0 auto;
         width: 400px;
     }
+}
+#link1{
+    background-image: linear-gradient(to right, rgba(90, 88, 219, 1),rgba(154, 82, 210, 0) );
+}
+#link2{
+    background-image: linear-gradient(to right, rgba(60, 157, 246, 1),rgba(91, 150, 238, 0) );
+}#link3{
+    background-image: linear-gradient(to right, rgba(26, 26, 26, 1),rgba(26, 26, 26, 0) );
+}#link4{
+    background-image: linear-gradient(to right, rgba(90, 88, 219, 1),rgba(154, 82, 210, 0) );
+}#link5{
+    background-image: linear-gradient(to right, rgba(236, 56, 110, 1),rgba(236, 56, 110, 0) );
+}#link6{
+    background-image: linear-gradient(to right, rgba(56, 96, 236, 1),rgba(56, 96, 236, 0) );
+}
+
+#con{
+    color: white;
+}
+.con{
+    color: rgba(90, 72, 197, 0.6);
 }
