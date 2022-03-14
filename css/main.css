@@ -6,8 +6,12 @@ body, html {
     color: #935633;
 }
 body{
-    background-image: url("../bg.png");
+    background-image: url("../bg.png") ;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: 10% -25%; 
+
+
 }
   
 span{
@@ -69,7 +73,10 @@ a{
 }
 @media (min-width:400px) {
     body{
-      background-position: 15%;
+        background-image: url("../bg.png") ;
+        background-size: cover;
+        background-position: center center; 
+      
     }
     .link-tree{
         margin: 0 auto;
