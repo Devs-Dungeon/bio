@@ -24,15 +24,13 @@ span{
     color: #5C5B99;
 }
 .container{
-    padding-top: 10vh;
+    padding-top: 2vh;
 }
 
 
 .subtitle{
-    padding-top: 5vh;
+    
     font-size: 1rem;
-    margin-bottom: 2em;
-    margin-top: 0%;
     color: black;
 }
 .link-tree{
