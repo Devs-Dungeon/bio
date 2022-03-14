@@ -6,7 +6,7 @@ body, html {
     color: #935633;
 }
 body{
-    background-image: url("../bg.png") ;
+    background-image: url("../Assets/bg.png") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% -25%; 
@@ -71,7 +71,7 @@ a{
 }
 @media (min-width:400px) {
     body{
-        background-image: url("../bg.png") ;
+        background-image: url("../Assets/bg.png") ;
         background-size: cover;
         background-position: center center; 
       
@@ -100,7 +100,7 @@ a{
     color: white;
 }
 .con{
-    padding-top: 1rem;
+    
     color: rgba(90, 72, 197, 0.6);
 }
  .img1{
