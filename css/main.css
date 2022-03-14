@@ -5,17 +5,9 @@ body, html {
     text-align: center;
     color: #935633;
 }
-.falling-leaves {
-    position:absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 100vw;
-    height: 100vh;
-    transform: translate(-50%,0%);
-    background: url("../bg.png") no-repeat center center;
+body{
+    background-image: url("../bg.png");
     background-size: cover;
-    overflow-x:hidden;
 }
   
 span{
@@ -54,7 +46,7 @@ a{
     z-index: 10;
     font-size: 1rem;
     font-weight: 700;
-    color: black;
+    color: white;
     margin-bottom: 1.2em;
     padding: .85em 1.25em;
     box-shadow: 4px 4px 2px rgba(150, 75, 0, 0.12);
@@ -63,10 +55,8 @@ a{
     text-align: start;
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    align-content: center; 
     align-items: center;
-
+    padding-left:33.33%;
 }
 .link:hover{
     background-color: rgba(150, 75, 0, 0.8);
@@ -79,7 +69,7 @@ a{
 }
 @media (min-width:400px) {
     body{
-        height: 100%;
+      background-position: 15%;
     }
     .link-tree{
         margin: 0 auto;
@@ -108,6 +98,13 @@ a{
     color: rgba(90, 72, 197, 0.6);
 }
  .img1{
+     margin-right: 0.5em;
     height: 25px;
     width: 25px;
     } 
+
+.fa-twitter-square{
+    font-size: 1.4rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
