@@ -53,7 +53,7 @@
 
 <p align="center">
 	<a href="https://github.com/Devs-Dungeon/bio/graphs/contributors">
-		<img src="https://contrib.rocks/image" />
+		<img src="https://contrib.rocks/image?repo=Devs-Dungeon/bio" />
 	</a>
 </p>
 
