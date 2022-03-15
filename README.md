@@ -50,12 +50,11 @@
 
 
 <h1 align=center> ⭐ OUR VALUABLE CONTRIBUTORS ⭐ </h1>
+
 <p align="center">
-  
-	
-<a href="https://github.com/Devs-Dungeon/bio/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Devs-Dungeon/bio" />
-</a>
+	<a href="https://github.com/Devs-Dungeon/bio/graphs/contributors">
+		<img src="https://contrib.rocks/image" />
+	</a>
 </p>
 
 <h2> 🔗 Connect with Us </h2>
