@@ -6,12 +6,10 @@ body, html {
     color: #935633;
 }
 body{
-    background-image: url("../Assets/bg.png") ;
+    background-image: url("../Assets/bgmob.png") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% -25%; 
-
-
 }
   
 span{
@@ -71,7 +69,7 @@ a{
 }
 @media (min-width:400px) {
     body{
-        background-image: url("../Assets/bg.png") ;
+        background-image: url("../Assets/bg.webp") ;
         background-size: cover;
         background-position: center center; 
       
