@@ -6,10 +6,10 @@ body, html {
     color: #935633;
 }
 body{
-    background-image: url("../Assets/bgmob.png") ;
+    background-image: url("../Assets/bgmobile1.svg") ;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 10% -25%; 
+    background-position: center;
 }
   
 span{
@@ -27,9 +27,8 @@ span{
 
 
 .subtitle{
-    
     font-size: 1rem;
-    color: black;
+    color: white;
 }
 .link-tree{
     padding: 1em 0;
@@ -67,7 +66,7 @@ a{
     color:#000;
     padding-top: 30px;
 }
-@media (min-width:400px) {
+@media (min-width:450px) {
     body{
         background-image: url("../Assets/bg.webp") ;
         background-size: cover;
