@@ -29,7 +29,7 @@ span{
 
 .subtitle{
     font-size: 1rem;
-    color:#B09E80;}
+    color:#bda88d;}
 .link-tree{
     padding: 1em 0;
     display: flex;
@@ -63,7 +63,7 @@ a{
 }
 
 .copyright{
-    color:#000;
+    color:rgb(231, 231, 231);
     padding-top: 30px;
 }
 @media (min-width:450px) {
@@ -97,7 +97,7 @@ a{
 }
 .con{
     
-    color: rgba(90, 72, 197, 0.6);
+    color: red;
 }
  .img1{
      margin-right: 0.5em;
