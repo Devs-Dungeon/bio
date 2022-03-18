@@ -6,7 +6,7 @@ body, html {
     color: #935633;
 }
 body{
-    background-image: url("../Assets/bg.png") ;
+    background-image: url("../Assets/newbg.png") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% -25%; 
@@ -15,13 +15,14 @@ body{
 }
   
 span{
-    color: #935633;
+    color: #ffffff;
+    font-size: 20px;
 }
 .title{
     font-size: 2rem;
     padding-bottom: 0%;
-    font-family: 'Stick', sans-serif;
-    color: #5C5B99;
+    font-family: 'Poppins', sans-serif;    color: #fdfdfd;
+    font-weight: 600;
 }
 .container{
     padding-top: 2vh;
@@ -31,8 +32,7 @@ span{
 .subtitle{
     
     font-size: 1rem;
-    color: black;
-}
+    color:#B09E80;}
 .link-tree{
     padding: 1em 0;
     display: flex;
@@ -71,9 +71,8 @@ a{
 }
 @media (min-width:400px) {
     body{
-        background-image: url("../Assets/bg.png") ;
-        background-size: cover;
-        background-position: center center; 
+      background-image: url("../Assets/newbg.png") ;
+         background-position: center center; 
       
     }
     .link-tree{
