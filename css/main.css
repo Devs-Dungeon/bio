@@ -9,9 +9,7 @@ body{
     background-image: url("../Assets/newbg.png") ;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 10% -25%; 
-
-
+    background-position: center;
 }
   
 span{
@@ -30,7 +28,6 @@ span{
 
 
 .subtitle{
-    
     font-size: 1rem;
     color:#B09E80;}
 .link-tree{
@@ -69,7 +66,7 @@ a{
     color:#000;
     padding-top: 30px;
 }
-@media (min-width:400px) {
+@media (min-width:450px) {
     body{
       background-image: url("../Assets/newbg.png") ;
          background-position: center center; 
