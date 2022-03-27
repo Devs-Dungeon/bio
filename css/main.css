@@ -1,4 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgba(236, 56, 110, 1); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(236, 56, 110, 1); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(150, 75, 0, 1);
+}
+
 body, html {
     height:fit-content;
     font-family: 'Montserrat', sans-serif;
@@ -23,13 +41,14 @@ span{
     font-weight: 600;
 }
 .container{
-    padding-top: 2vh;
+    padding-top: 0;
 }
 
 
 .subtitle{
     font-size: 1rem;
-    color:#bda88d;}
+    color:#bda88d;
+}
 .link-tree{
     padding: 1em 0;
     display: flex;
@@ -64,11 +83,10 @@ a{
 
 .copyright{
     color:rgb(231, 231, 231);
-    padding-top: 30px;
 }
 @media (min-width:450px) {
     body{
-      background-image: url("../Assets/newbg.png") ;
+      background-image: url("../Assets/bgDesktop.svg") ;
          background-position: center center; 
       
     }
@@ -78,26 +96,26 @@ a{
     }
 }
 #link1{
-    background-image: linear-gradient(to right, rgba(90, 88, 219, 1),rgba(154, 82, 210, 0) );
+    background-image: linear-gradient(to right, rgba(90, 88, 219, 1),rgba(154, 82, 210, 0.25) );
 }
 #link2{
-    background-image: linear-gradient(to right, rgba(60, 157, 246, 1),rgba(91, 150, 238, 0) );
+    background-image: linear-gradient(to right, rgba(60, 157, 246, 1),rgba(91, 150, 238, 0.25) );
 }#link3{
-    background-image: linear-gradient(to right, rgba(26, 26, 26, 1),rgba(26, 26, 26, 0) );
+    background-image: linear-gradient(to right, rgba(26, 26, 26, 1),rgba(26, 26, 26, 0.25) );
 }#link4{
-    background-image: linear-gradient(to right, rgba(90, 88, 219, 1),rgba(154, 82, 210, 0) );
+    background-image: linear-gradient(to right, rgba(90, 88, 219, 1),rgba(154, 82, 210, 0.25) );
 }#link5{
-    background-image: linear-gradient(to right, rgba(236, 56, 110, 1),rgba(236, 56, 110, 0) );
+    background-image: linear-gradient(to right, rgba(236, 56, 110, 1),rgba(236, 56, 110, 0.25) );
 }#link6{
-    background-image: linear-gradient(to right, rgba(56, 96, 236, 1),rgba(56, 96, 236, 0) );
+    background-image: linear-gradient(to right, rgba(56, 96, 236, 1),rgba(56, 96, 236, 0.25) );
 }
 
 #con{
     color: white;
+    font-size: 1rem;
 }
-.con{
-    
-    color: red;
+.contact a{
+    color: #bda88d;
 }
  .img1{
      margin-right: 0.5em;
