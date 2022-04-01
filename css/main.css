@@ -1,21 +1,4 @@
-::-webkit-scrollbar {
-    width: 8px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 3px rgba(236, 56, 110, 1); 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgba(236, 56, 110, 1); 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgba(150, 75, 0, 1);
-}
+
 
 body, html {
     height:fit-content;
@@ -34,6 +17,7 @@ span{
     color: #ffffff;
     font-size: 20px;
 }
+
 .title{
     font-size: 2rem;
     padding-bottom: 0%;
