@@ -12,6 +12,10 @@ body{
     background-size: cover;
     background-position: center;
 }
+#logo{
+    position: relative;
+    top:30px;
+}
   
 span{
     color: #ffffff;
@@ -25,7 +29,7 @@ span{
     font-weight: 600;
 }
 .container{
-    padding-top: 0;
+    padding-top: 20px;
 }
 
 
