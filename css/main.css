@@ -17,9 +17,11 @@ body{
     top:30px;
 }
   
-span{
+.subtitle span{
     color: #ffffff;
     font-size: 20px;
+    margin-left: 1em;
+    margin-right: 0.25em;
 }
 
 .title{
@@ -74,7 +76,7 @@ a{
 }
 @media (min-width:450px) {
     body{
-      background-image: url("../Assets/bgDesktop.svg") ;
+      background-image: url("../Assets/biobg.svg") ;
          background-position: center center; 
       
     }
