@@ -20,27 +20,23 @@ body{
 .subtitle span{
     color: #ffffff;
     font-size: 20px;
-    margin-left: 1em;
     margin-right: 0.25em;
 }
 
-.title{
-    font-size: 2rem;
-    padding-bottom: 0%;
-    font-family: 'Poppins', sans-serif;    color: #fdfdfd;
-    font-weight: 600;
-}
 .container{
     padding-top: 20px;
 }
-
+#logo{
+    margin-bottom: 1em;
+}
 
 .subtitle{
     font-size: 1rem;
-    color:#bda88d;
+    font-weight: bold;
+    color: #C6ac81;
 }
 .link-tree{
-    padding: 1em 0;
+    padding: 0.5em 0;
     display: flex;
     flex-direction: column;
     z-index: 10;
@@ -66,12 +62,16 @@ a{
     align-items: center;
     padding-left:33.33%;
 }
+.link:last-child{
+    margin-bottom: 0;
+}
 .link:hover{
     background-color: rgba(150, 75, 0, 0.8);
     transform: scale(1.05);
 }
 
 .copyright{
+    font-size: 0.8rem;
     color:rgb(231, 231, 231);
 }
 @media (min-width:450px) {
@@ -103,8 +103,10 @@ a{
 #con{
     color: white;
     font-size: 1rem;
+    margin-top: 0;
 }
 .contact a{
+    margin-top: 0;
     color: #bda88d;
 }
  .img1{
