@@ -8,7 +8,7 @@
 </div>
 
 
-<h2>About Us! 🤩</h2>
+<h2> About Us! 🤩 </h2>
 <p>
     ⭐ <b>3 C's</b> of our Community: Connect, Collaborate and Create! <br>
     ⭐ We are an open <b>Learning Community</b> dedicated towards developers across the world! <br>
