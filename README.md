@@ -39,8 +39,8 @@
 <h3> Tools: </h3>
 
 <div>
-<img align="left" width="80px" src="https://img.shields.io/badge/-Figma-1572B6?logo=figma&Color=white&style=plastic" />
-<img align="left" width="155px" src="https://img.shields.io/badge/-Adobe Photoshop-1572B6?logo=AdobePhotoshop&Color=white&style=plastic" />
+<img align="left" width="85px" src="https://img.shields.io/badge/-Figma-1572B6?logo=figma&Color=white&style=plastic" />
+<img align="left" width="160px" src="https://img.shields.io/badge/-Adobe Photoshop-1572B6?logo=AdobePhotoshop&Color=white&style=plastic" />
 </div>
 <br><br>
 
