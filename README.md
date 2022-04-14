@@ -46,7 +46,7 @@
 
 <h3> 👉 Glimpse of the Webpage </h3>
 
-![](https://github.com/Devs-Dungeon/bio/blob/main/Assets/page.PNG)
+![](https://github.com/Devs-Dungeon/bio/blob/main/Assets/bio.PNG)
 
 
 <h1 align=center> ⭐ OUR VALUABLE CONTRIBUTORS ⭐ </h1>
