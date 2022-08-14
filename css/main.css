@@ -5,6 +5,13 @@ html {
   text-align: center;
   color: #935633;
 }
+*,
+::before,
+::after {
+  box-sizing: bordor-box;
+  padding: 0;
+  margin: 0;
+}
 body {
   background-image: url("../Assets/newbg.png");
   background-repeat: no-repeat;
