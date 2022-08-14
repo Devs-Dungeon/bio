@@ -1,122 +1,179 @@
-
-
-body, html {
-    height:fit-content;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: #935633;
+body,
+html {
+  height: fit-content;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #935633;
 }
-body{
-    background-image: url("../Assets/newbg.png") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+body {
+  background-image: url("../Assets/newbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-#logo{
-    position: relative;
-    top:30px;
-}
-  
-.subtitle span{
-    color: #ffffff;
-    font-size: 20px;
-    margin-right: 0.25em;
-}
-
-.container{
-    padding-top: 20px;
-}
-#logo{
-    margin-bottom: 1em;
-}
-
-.subtitle{
-    font-size: 1rem;
-    font-weight: bold;
-    color: #C6ac81;
-}
-.link-tree{
-    padding: 0.5em 0;
-    display: flex;
-    flex-direction: column;
-    z-index: 10;
-}
-a{
-    text-decoration: none;
-    border: none;
+main {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    -45deg,
+    #a8391734,
+    #e1c12555,
+    #7009858b,
+    #9523c390
+  );
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
 }
 
-.link{
-    z-index: 10;
-    font-size: 1rem;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 1.2em;
-    padding: .85em 1.25em;
-    box-shadow: 4px 4px 2px rgba(150, 75, 0, 0.12);
-    border-radius: 5px;
-    transition: all 250ms;
-    text-align: start;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left:33.33%;
-}
-.link:last-child{
-    margin-bottom: 0;
-}
-.link:hover{
-    background-color: rgba(150, 75, 0, 0.8);
-    transform: scale(1.05);
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.copyright{
-    font-size: 0.8rem;
-    color:rgb(231, 231, 231);
-}
-@media (min-width:450px) {
-    body{
-      background-image: url("../Assets/biobg.svg") ;
-         background-position: center center; 
-      
-    }
-    .link-tree{
-        margin: 0 auto;
-        width: 400px;
-    }
-}
-#link1{
-    background-image: linear-gradient(to right, rgba(90, 88, 219, 1),rgba(154, 82, 210, 0.25) );
-}
-#link2{
-    background-image: linear-gradient(to right, rgba(60, 157, 246, 1),rgba(91, 150, 238, 0.25) );
-}#link3{
-    background-image: linear-gradient(to right, rgb(61, 54, 54),rgba(26, 26, 26, 0.25) );
-}#link4{
-    background-image: linear-gradient(to right, rgba(90, 88, 219, 1),rgba(154, 82, 210, 0.25) );
-}#link5{
-    background-image: linear-gradient(to right, rgba(236, 56, 110, 1),rgba(236, 56, 110, 0.25) );
-}#link6{
-    background-image: linear-gradient(to right, rgba(56, 96, 236, 1),rgba(56, 96, 236, 0.25) );
+#logo {
+  margin-top: 2rem;
+  top: 30px;
 }
 
-#con{
-    color: white;
-    font-size: 1rem;
-    margin-top: 0;
+.subtitle span {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 0.25em;
 }
-.contact a{
-    margin-top: 0;
-    color: #C6ac81;
-}
- .img1{
-     margin-right: 0.5em;
-    height: 25px;
-    width: 25px;
-    } 
 
-.fa-twitter-square{
-    font-size: 1.4rem;
-    border: 1px solid white;
-    border-radius: 50%;
+.container {
+  padding-top: 20px;
+}
+#logo {
+  margin-bottom: 1em;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #c6ac81;
+}
+.link-tree {
+  padding: 0.5em 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+a {
+  text-decoration: none;
+  border: none;
+}
+
+.link {
+  z-index: 10;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1.2em;
+  padding: 0.85em 1.25em;
+  box-shadow: 4px 4px 2px rgba(150, 75, 0, 0.12);
+  border-radius: 5px;
+  transition: all 250ms;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 33.33%;
+}
+.link:last-child {
+  margin-bottom: 0;
+}
+.link:hover {
+  background-color: rgba(150, 75, 0, 0.8);
+  transform: scale(1.05);
+}
+
+.copyright {
+  font-size: 0.8rem;
+  color: rgb(255, 255, 255);
+}
+@media (min-width: 450px) {
+  body {
+    background-image: url("../Assets/biobg.svg");
+    background-position: center center;
+  }
+  .link-tree {
+    margin: 0 auto;
+    width: 400px;
+  }
+}
+#link1 {
+  background-image: linear-gradient(
+    to right,
+    rgba(90, 88, 219, 1),
+    rgba(154, 82, 210, 0.25)
+  );
+}
+#link2 {
+  background-image: linear-gradient(
+    to right,
+    rgba(60, 157, 246, 1),
+    rgba(91, 150, 238, 0.25)
+  );
+}
+#link3 {
+  background-image: linear-gradient(
+    to right,
+    rgb(61, 54, 54),
+    rgba(26, 26, 26, 0.25)
+  );
+}
+#link4 {
+  background-image: linear-gradient(
+    to right,
+    rgba(90, 88, 219, 1),
+    rgba(154, 82, 210, 0.25)
+  );
+}
+#link5 {
+  background-image: linear-gradient(
+    to right,
+    rgba(236, 56, 110, 1),
+    rgba(236, 56, 110, 0.25)
+  );
+}
+#link6 {
+  background-image: linear-gradient(
+    to right,
+    rgba(56, 96, 236, 1),
+    rgba(56, 96, 236, 0.25)
+  );
+}
+
+#con {
+  color: white;
+  font-size: 1rem;
+  margin-top: 0;
+}
+.contact a {
+  margin-top: 0;
+  color: #c6ac81;
+}
+.img1 {
+  margin-right: 0.5em;
+  height: 25px;
+  width: 25px;
+}
+
+.fa-twitter-square {
+  font-size: 1.4rem;
+  border: 1px solid white;
+  border-radius: 50%;
 }
