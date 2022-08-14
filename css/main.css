@@ -1,3 +1,4 @@
+/* ============ BASE =========== */
 body,
 html {
   height: fit-content;
@@ -12,6 +13,9 @@ html {
   padding: 0;
   margin: 0;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 body {
   background-image: url("../Assets/newbg.png");
   background-repeat: no-repeat;
@@ -22,9 +26,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-main {
   height: 100vh;
+}
+
+main {
+  height: 100%;
   width: 100vw;
   background: linear-gradient(
     -45deg,
@@ -33,10 +39,15 @@ main {
     #7009858b,
     #9523c390
   );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
 }
 
+/* ============= GRADIENT ANIMETION EFFECT =========== */
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
