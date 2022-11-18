@@ -58,7 +58,7 @@ a{
     transition: all 250ms;
     text-align: start;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;*/
     align-items: center;
 }
 .link:last-child{
