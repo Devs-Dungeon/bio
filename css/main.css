@@ -52,7 +52,7 @@ a{
     font-weight: 700;
     color: white;
     margin-bottom: 1.2em;
-    padding: .85em 1.25em;
+ /*   padding: .85em 1.25em;*/
     box-shadow: 4px 4px 2px rgba(150, 75, 0, 0.12);
     border-radius: 5px;
     transition: all 250ms;
@@ -60,6 +60,7 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
+/*    padding-left:33.33%;*/
 }
 .link:last-child{
     margin-bottom: 0;
