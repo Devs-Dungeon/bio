@@ -85,10 +85,11 @@ a{
         width: 400px;
     }
 }
-#link1{
+#link0{
     background-image: linear-gradient(to right, rgba(90, 88, 219, 1),rgba(154, 82, 210, 0.25) );
-}
-#link2{
+}#link1{
+    background-image: linear-gradient(to right, rgba(90, 88, 219, 1),rgba(154, 82, 210, 0.25) );
+}#link2{
     background-image: linear-gradient(to right, rgba(60, 157, 246, 1),rgba(91, 150, 238, 0.25) );
 }#link3{
     background-image: linear-gradient(to right, rgb(61, 54, 54),rgba(26, 26, 26, 0.25) );
