@@ -1,5 +1,4 @@
 /* 
-
 body, html {
     height:fit-content;
     font-family: 'Montserrat', sans-serif;
@@ -121,4 +120,48 @@ a{
     border: 1px solid white;
     border-radius: 50%;
 } */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #f2f1f1;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling Logo Section Start */
+.logo{
+    padding: 2.5rem 1rem 1rem;
+    flex-direction: column;
+}
+.logo img{
+    width: 53px;
+    animation: animateLogo 10s linear infinite;
+}
+
+@keyframes animateLogo {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+.logo h2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+/* Styling Logo Section End */
+
+/* Styling Subtitle Start */
+.subtitle p{
+    font-size: 14px;
+}
+/* Styling Subtitle End */
 
