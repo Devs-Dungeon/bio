@@ -165,3 +165,23 @@ body{
 }
 /* Styling Subtitle End */
 
+/* Styling Footer Start  */
+.footer{
+    padding: 1rem;
+    flex-direction: column;
+}
+.footer p a{
+    text-decoration: none;
+    color: #935633;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+.footer p a:hover{
+    color: #55009E;
+}
+.footer #copyright{
+    margin-top: 15px;
+    font-size: 14px;
+}
+/* Styling Footer End  */
+
