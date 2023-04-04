@@ -120,6 +120,7 @@ a{
     border: 1px solid white;
     border-radius: 50%;
 } */
+
 *{
     margin: 0;
     padding: 0;
@@ -164,6 +165,35 @@ body{
     font-size: 14px;
 }
 /* Styling Subtitle End */
+
+/* Styling link-tree Start */
+.link-tree{
+    flex-direction: column;
+    padding: 30px;
+}
+.link-tree a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 6em;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: #55009E;
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+.link-tree a:hover{
+    box-shadow: 0px 0px 5px 1px #00000014;
+    scale: 1.04;
+}
+.link-tree .link-img{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+/* Styling link-tree End */
 
 /* Styling Footer Start  */
 .footer{
