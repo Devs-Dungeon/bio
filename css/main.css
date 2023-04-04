@@ -125,6 +125,7 @@ a{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 body{
     background-color: #f2f1f1;
@@ -169,7 +170,9 @@ body{
 /* Styling link-tree Start */
 .link-tree{
     flex-direction: column;
-    padding: 30px;
+    padding: 45px 30px 23px;
+    width: 470px;
+    margin: 0 auto;
 }
 .link-tree a{
     text-decoration: none;
@@ -183,15 +186,34 @@ body{
     color: #55009E;
     background-color: #fff;
     transition: 0.3s ease;
+    margin-bottom: 1.2em;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.link-tree a:last-child{
+    margin-bottom: 0;
 }
 .link-tree a:hover{
     box-shadow: 0px 0px 5px 1px #00000014;
-    scale: 1.04;
+    scale: 1.01;
 }
-.link-tree .link-img{
+.link-tree a img{
+    position: absolute;
+    transform: translateX(-17rem);
     height: 25px;
     width: 25px;
     margin-right: 10px;
+    transition: 0.7s ease;
+}
+.link-tree a:hover .link-img{
+    transform: translateX(0rem);
+}
+.link-label{
+    transition: 0.7s ease;
+}
+.link-tree a:hover .link-label{
+    transform: translateX(30rem);
 }
 /* Styling link-tree End */
 
