@@ -1,7 +1,10 @@
 
 
 body, html {
-    height:fit-content;
+    min-height: 100vh;
+    margin: 0;
+    padding-left: 1vw;
+    padding-right: 1vw;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #935633;
