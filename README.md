@@ -1,5 +1,9 @@
 <h1><ins>📍 DEVs Dungeon Bio 📍</ins></h1>
 
+<p align="center">
+    <img src="/bio/blob/main/Assets/logo/bg_black_small.png">
+</p>
+
 <div align="left">
 <a href="https://github.com/Devs-Dungeon/bio/"><img src="https://sloc.xyz/github/Devs-Dungeon/bio" alt="LOC"/></a>
 <a href="https://github.com/Devs-Dungeon/bio/"><img src="https://img.shields.io/github/stars/Devs-Dungeon/bio" alt="Stars Badge"/></a>
