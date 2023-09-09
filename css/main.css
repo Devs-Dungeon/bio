@@ -1,5 +1,4 @@
-
-
+/* 
 body, html {
     height:fit-content;
     font-family: 'Montserrat', sans-serif;
@@ -120,4 +119,173 @@ a{
     font-size: 1.4rem;
     border: 1px solid white;
     border-radius: 50%;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f1f1;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling Logo Section Start */
+.logo {
+    padding: 2.5rem 1rem 1rem;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 53px;
+    animation: animateLogo 10s linear infinite;
+}
+
+@keyframes animateLogo {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.logo h2 {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+/* Styling Logo Section End */
+
+/* Styling Subtitle Start */
+.subtitle p {
+    font-size: 14px;
+}
+
+/* Styling Subtitle End */
+
+/* Styling link-tree Start */
+.link-tree {
+    flex-direction: column;
+    padding: 45px 30px 23px;
+    width: 470px;
+    margin: 0 auto;
+}
+
+.link-tree a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 6em;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: #55009E;
+    background-color: #fff;
+    transition: 0.3s ease;
+    margin-bottom: 1.2em;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.link-tree a:last-child {
+    margin-bottom: 0;
+}
+
+.link-tree a:hover {
+    box-shadow: 0px 0px 5px 1px #00000014;
+    scale: 1.01;
+}
+
+.link-tree a img {
+    position: absolute;
+    transform: translateX(-17rem);
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    transition: 0.7s ease;
+}
+
+.link-tree a:hover .link-img {
+    transform: translateX(0rem);
+}
+
+.link-label {
+    transition: 0.7s ease;
+}
+
+.link-tree a:hover .link-label {
+    transform: translateX(30rem);
+}
+
+/* Styling link-tree End */
+
+/* Styling Footer Start  */
+.footer {
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: #935633;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+.footer p a:hover {
+    color: #55009E;
+}
+
+.footer #copyright {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Styling Footer End  */
+
+
+/* Responiveness */
+
+@media only screen and (max-width: 475px) {
+    .link-tree {
+        width: 400px;
+    }
+
+    .link-tree a {
+        padding: 1em;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .link-tree {
+        width: 300px;
+    }
+
+    .link-tree a {
+        font-size: 14px;
+    }
+
+    .footer p a {
+        font-size: 14px;
+    }
+
+    .footer p span {
+        font-size: 14px;
+    }
 }
